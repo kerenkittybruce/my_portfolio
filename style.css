@@ -4,6 +4,7 @@
   background-size: cover;
   background-color: rgb(255, 209, 217);
   margin: 0;
+  padding: 30px;
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
@@ -33,4 +34,8 @@
 .about-button{
     border-radius: 5px;
     background-color:#86003c;
+}
+
+.about{
+    background-color:#f1bad4;
 }
