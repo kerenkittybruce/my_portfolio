@@ -7,6 +7,7 @@
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
 }
 
 .curly-girl {
@@ -18,4 +19,18 @@
 
 .words {
   color: #86003c;
+}
+
+.home-desc{
+    text-decoration: none;
+}
+
+.job-title{
+    color:#e41f7b;
+    font-style: italic;
+}
+
+.about-button{
+    border-radius: 5px;
+    background-color:#86003c;
 }
