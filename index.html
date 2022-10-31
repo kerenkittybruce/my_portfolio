@@ -1,62 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <!-- My Own CSS -->
-    <link rel="stylesheet" type="text/css" href="./style.css"/>
+    <link rel="stylesheet" href="./style.css" />
     <title>Keren C. Bruce</title>
-</head>
-<body>
+  </head>
+  <body
+    style="
+      background-image: url(./assets/images/planning/pink-and-black-ink-drop.jpg);
+    "
+  >
     <header class="showcase">
-        <!-- Navigation Bar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid d-flex justify-content-between align-items-center">
-              <a class="navbar-brand" href="#"><a class="navbar-brand fs-1" href="#">
-                <img src="./assets/images/planning/logo-3.png" alt="codelogo" width="130rem" height="120rem" class="d-inline-block align-text-center img-responsive">
-                Keren .
-              </a>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active fs-3" aria-current="page" href="#">Home</a>
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><a class="navbar-brand fs-1" href="#">
+            <img src="./assets/images/planning/logo-3.png" alt="codelogo" width="130rem" height="120rem" class="d-inline-block align-text-center img-responsive img-fluid">
+            keren .
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#aboutme"
+                  id="navbarDarkDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  About Me
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-dark"
+                  aria-labelledby="navbarDarkDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#thisisme">This Is Me</a>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle fs-3" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      About Me
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">This Is Me</a></li>
-                        <li><a class="dropdown-item" href="#">Work Experience</a></li>
-                        <li><a class="dropdown-item" href="#">Education</a></li>
-                        <li><a class="dropdown-item" href="#">Projects</a></li>
-                    </ul>
+                  <li>
+                    <a class="dropdown-item" href="#education">Education</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link fs-3" href="#">Skills</a>
+                  <li>
+                    <a class="dropdown-item" href="#workexperience"
+                      >Work Experience</a
+                    >
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link fs-3" href="#">Contact Me</a>
+                  <li>
+                    <a class="dropdown-item" href="#projects">Projects</a>
                   </li>
                 </ul>
-              </div>
-            </div>
-          </nav>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#contactme">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <!-- Landing Page -->
-    <div class="container">
-      <h1 class="text-black fw-light align-text-center">Hi There!</h1>
-      <h2>
-        "I'm "
-        <span class="words fw-bold align-text-center">Keren Bruce</span>
-        ", an aspiring game developer and designer."
-      </h2>
+    <div class="container d-flex align-items-center">
+      <figure class="curly-girl figure">
+        <img
+          src="./assets/images/planning/sassy_logo-removebg.png"
+          class="figure-img img-fluid"
+          alt="curly-logo"
+        />
+      </figure>
     </div>
- <!-- JavaScript -->
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+    <div class="container text-center">
+      <h1 class="text-black fw-light text-center">Hi There!</h1>
+      <h2 class="text-center fw-bold">
+        I'm
+        <span class="words fw-bolder text-center">Keren Bruce</span>
+      </h2>
+      <br />
+      <h3 class="text-center text-black"></h3>
+    </div>
+    <!-- JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

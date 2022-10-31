@@ -1,16 +1,21 @@
-.home-page {
-  margin: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(./assets/images/planning/pink-spring-flowers.jpg);
+.body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-color: rgb(255, 209, 217);
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.curly-girl {
+  width: 24rem;
+  height: 24rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .words {
-  text-decoration: none;
-  color: #26191b;
-  border-bottom: #f2468e;
+  color: #86003c;
 }
