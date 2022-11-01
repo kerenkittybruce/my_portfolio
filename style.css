@@ -1,3 +1,4 @@
+/*-- Whole Document --*/
 .body {
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -8,10 +9,11 @@
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
 }
 
-.landing-page{
+/*-- Landing Page --*/
+.landing-page {
   margin-bottom: 30px;
 }
 
@@ -26,41 +28,76 @@
   color: #86003c;
 }
 
-.home-desc{
+.home-desc {
   text-decoration: none;
 }
 
-.job-title{
-  color:#e41f7b;
+.job-title {
+  color: #e41f7b;
   font-style: italic;
 }
 
-.about-button{
+.about-button {
   border-radius: 5px;
   padding: 12px;
-  background-color:#86003c;
+  background-color: #86003c;
 }
 
-.about{
-  background-color:#f1bad4;
+/*-- About Me --*/
+.about {
+  background-color: #f1bad4;
 }
 
-.about-me{
+.about-title {
+  color: #e41f7b;
+}
+
+.about-me {
   display: flex;
-  justify-content:space-around;
-  margin: 20px;
+  justify-content: space-around;
+  padding: 20px;
 }
 
-.column-1{
+.column-1 {
   flex: 1;
 }
 
-.column-2{
+.column-2 {
   flex: 2;
   justify-content: center;
 }
 
-.magic{
+.magic-space {
+  background-image: url(./assets/images/planning/banner-img.png);
+}
+
+.magic {
   margin: 20px;
+  padding: 30px;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  text-align: center;
+  background-color: #ffcacacf;
+}
+
+/*-- Personal Details --*/
+.details {
+  display: flex;
+  justify-content: space-around;
   padding: 20px;
 }
+
+.det-1 {
+  flex: 1;
+  flex-direction: column;
+}
+
+.det-2 {
+  flex: 2;
+  flex-direction: column;
+}
+
+.details-title {
+  color: #cc1366;
+}
+
