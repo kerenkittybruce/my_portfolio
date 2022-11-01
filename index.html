@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -25,13 +28,14 @@
       <!-- Navigation Bar -->
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand fs-1 fw-bolder" href="#">
+          <a class="navbar-brand fs-1 fw-bolder" href="#home">
             <img
               src="./assets/images/planning/LOGO-LOGO.png"
               alt="codelogo"
               width="130rem"
               height="120rem"
               class="d-inline-block align-text-center img-responsive img-fluid"
+              href="#home"
             />
             keren .
           </a>
@@ -56,7 +60,7 @@
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle fs-2"
-                  href="#aboutme"
+                  href="#about"
                   id="navbarDarkDropdownMenuLink"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -103,54 +107,95 @@
       </nav>
     </header>
     <!-- Landing Page -->
-    <div class="container d-flex align-items-center">
-      <figure class="curly-girl figure">
-        <img
-          src="./assets/images/planning/sassy_logo-removebg.png"
-          class="figure-img img-fluid"
-          alt="curly-logo"
-        />
-      </figure>
-    </div>
-    <div class="container-fluid text-center" style="background-color:#faebf084">
-      <h1 class="text-black fw-bold text-center fs-1">Hi There!</h1>
-      <h2 class="text-center fw-bold fs-3">
-        I'm
-        <span class="words fw-bolder text-center fs-1">Keren Bruce</span>
-      </h2>
-      <br />
-      <p class="home-desc text-center text-black fw-bold fs-4">
-        I am an aspiring <span class="job-title fs-2">game developer</span>,
-        <span class="job-title fs-2">UI/UX designer</span>,
-        <span class="job-title fs-2">software developer</span> &
-        <span class="job-title fs-2">web developer</span>.
-      </p>
-    </div>
-    <!-- About Me button-->
-    <div class="container-fluid d-flex flex-column align-items-center">
-      <button class="about-button">
-        <a
+    <div class="landing-page container">
+      <div class="container-fluid d-flex align-items-center" id="home">
+        <figure class="curly-girl figure">
+          <img
+            src="./assets/images/planning/sassy_logo-removebg.png"
+            class="figure-img img-fluid"
+            alt="curly-logo"
+          />
+        </figure>
+      </div>
+      <div
+        class="container container-fluid text-center"
+        style="background-color: #faebf084"
+      >
+        <h1 class="text-black fw-bold text-center fs-1">Hi There!</h1>
+        <h2 class="text-center fw-bold fs-3">
+          I'm
+          <span class="words fw-bolder text-center fs-1">Keren Bruce</span>
+        </h2>
+        <br />
+        <p class="home-desc text-center text-black fw-bold fs-4">
+          I am an aspiring <span class="job-title fs-2">game developer</span>,
+          <span class="job-title fs-2">UI/UX designer</span>,
+          <span class="job-title fs-2">software developer</span> &
+          <span class="job-title fs-2">web developer</span>.
+        </p>
+      </div>
+      <!-- About Me button-->
+      <div class="container-fluid d-flex flex-column align-items-center">
+        <button class="about-button">
+          <a
           href="#about"
-          class="btn-scroll scrollto fw-bold"
+          class="btn-scroll scrollto fw-bold fs-5"
           title="Scroll Down"
-          style="color: #f5c7d5; text-decoration: none"
+          style="color: #f5c7d5; text-decoration: none;"
           >About Me</a
-        >
-      </button>
+          >
+        </button>
+      </div>
     </div>
     <br />
-    <!-- About Me section -->
-    <section id="about" style="background-color:#ffecef">
-      <div class="container-fluid">
+    <!-- About Me content section -->
+    <section id="about" style="background-color: #ffecef">
+      <div class="container container-fluid">
         <div class="section-title">
           <h1 class="text-center fw-bold text-black">About Me .</h1>
-          <p class="fw-light text-center text-black">
-            I'm a full-stack developer currently situated in Cape Town. I have a deep passion for animations, UI effects and creating efficient, innovative user experiences.
-            I am an independent problem solver and fast learner with a wild imagination and a craving for more knowledge and skills.
-            I enjoy playing video games, watching anime and investing in my passion for art.
-            I am interested in building ambitious projects with wonderful people, especially those who can teach me ways to improve on my skills and knowledge.  
-          </p>
-          <p class="text-center fw-bolder fs-2" style="color:#af8baf">Let's make magic together!</p>
+        </div>
+      </div>
+      <hr />
+      <div class="about-me container container-fluid">
+          <div class="row">
+            <div class="column-1 col">
+              <img
+                alt="placeholder"
+                src="./assets/images/planning/image-placeholder.png"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="column-2 col">
+              <p class="fw-light text-start text-black d-flex align-content-center">
+                I'm a full-stack developer currently situated in Cape Town. I
+                have a deep passion for animations, UI effects and creating
+                efficient, innovative user experiences. I am an independent
+                problem solver and fast learner with a wild imagination and a
+                craving for more knowledge and skills. I enjoy playing video
+                games, watching anime and investing in my passion for art. I am
+                interested in building ambitious projects with wonderful people,
+                especially those who can teach me ways to improve on my skills
+                and knowledge.
+              </p>
+            </div>
+          </div>
+        </div>
+      <br>
+      <div class="container container-fluid">
+        <p class="magic text-center fw-bolder fs-1" style="color: #ae7eae;">
+          Let's make magic together!
+        </p>
+      </div>  
+      </div>
+      <br>
+      <!-- Work content section -->
+      <div class="container container-fluid">
+        <div class="section-title">
+          <h1>Work</h1>
+        </div>
+        <div class="work-content">
+          
         </div>
       </div>
     </section>

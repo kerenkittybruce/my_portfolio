@@ -11,6 +11,10 @@
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
 }
 
+.landing-page{
+  margin-bottom: 30px;
+}
+
 .curly-girl {
   width: 24rem;
   height: 24rem;
@@ -23,19 +27,40 @@
 }
 
 .home-desc{
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .job-title{
-    color:#e41f7b;
-    font-style: italic;
+  color:#e41f7b;
+  font-style: italic;
 }
 
 .about-button{
-    border-radius: 5px;
-    background-color:#86003c;
+  border-radius: 5px;
+  padding: 12px;
+  background-color:#86003c;
 }
 
 .about{
-    background-color:#f1bad4;
+  background-color:#f1bad4;
+}
+
+.about-me{
+  display: flex;
+  justify-content:space-around;
+  margin: 20px;
+}
+
+.column-1{
+  flex: 1;
+}
+
+.column-2{
+  flex: 2;
+  justify-content: center;
+}
+
+.magic{
+  margin: 20px;
+  padding: 20px;
 }
