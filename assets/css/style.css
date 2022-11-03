@@ -72,6 +72,11 @@
 
 }
 
+.my-img{
+  border-radius: 5px;
+  box-shadow:6px solid rgb(255, 93, 174);
+}
+
 .thisisme {
   color: #e41f7b;
 }
@@ -150,7 +155,7 @@
 }
 
 .work-title {
-  color: #e41f7b;
+  color: hotpink;
 }
 
 .work-title-section{
@@ -159,13 +164,13 @@
 
 /*-- Summary --*/
 .summary-title {
-  color: #fc187f;
+  color: rgb(255, 93, 174);
   text-align: center;
 }
 
 .summary-item {
   text-align: center;
-  color: #e96ba4;
+  color: #ff77b4;
 }
 
 .container-work {
@@ -220,4 +225,23 @@
 
 .buttons-cv{
   padding: 5px;
+}
+
+.filler-spc{
+  background-color:#be125f;
+  width: 100%;
+}
+
+/*-- Education section --*/
+.edu-title{
+  color: hotpink;
+}
+
+.edu-sub-title{
+  color: #e41f7b;
+  border-bottom: 2.5px solid #e31274;
+}
+
+.edu-year, .edu-qual, .edu-state{
+  color:#f878b2;
 }
