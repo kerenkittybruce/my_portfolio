@@ -69,12 +69,11 @@
   display: flex;
   justify-content: space-between;
   padding: 20px;
-
 }
 
-.my-img{
+.my-img {
   border-radius: 5px;
-  box-shadow:6px solid rgb(255, 93, 174);
+  box-shadow: 6px solid rgb(255, 93, 174);
 }
 
 .thisisme {
@@ -87,7 +86,7 @@
   width: 30rem;
 }
 
-.my-img{
+.my-img {
   width: 90%;
 }
 
@@ -95,7 +94,7 @@
   flex: 2;
   flex-direction: column;
   width: 25.5rem;
-  border-left:2.5px solid #3b001b;
+  border-left: 2.5px solid #3b001b;
 }
 
 .magic-space {
@@ -114,7 +113,7 @@
 }
 
 /*-- Personal Details --*/
-.thisisme{
+.thisisme {
   border-top: 2.5px dashed #e41f7b;
   border-bottom: 2.5px dashed #e41f7b;
 }
@@ -151,15 +150,14 @@
 }
 .work-section {
   background-color: #ffdfdf;
-
 }
 
 .work-title {
   color: hotpink;
 }
 
-.work-title-section{
-  font-size:x-large;
+.work-title-section {
+  font-size: x-large;
 }
 
 /*-- Summary --*/
@@ -198,11 +196,11 @@
   text-decoration: underline;
 }
 
-.title-in-work{
+.title-in-work {
   text-decoration: underline 2px solid #ff3590;
 }
 
-.w-col-title{
+.w-col-title {
   text-decoration: underline 2px solid #ff98c7;
 }
 
@@ -219,29 +217,62 @@
   color: #f3a8bf;
 }
 
-.btn-1{
+.btn-1 {
   margin-bottom: 5px;
 }
 
-.buttons-cv{
+.buttons-cv {
   padding: 5px;
 }
 
-.filler-spc{
-  background-color:#be125f;
+.filler-spc {
+  background-color: #be125f;
   width: 100%;
 }
 
 /*-- Education section --*/
-.edu-title{
+.edu-title {
   color: hotpink;
 }
 
-.edu-sub-title{
+.edu-sub-title {
   color: #e41f7b;
   border-bottom: 2.5px solid #e31274;
 }
 
-.edu-year, .edu-qual, .edu-state{
-  color:#f878b2;
+.edu-year,
+.edu-qual,
+.edu-state {
+  color: #f878b2;
+}
+
+/*-- Skills --*/
+.skills {
+  background-color: #f878b2;
+}
+
+.skills-section {
+  display: flex;
+}
+
+.skill-col-1 {
+  flex: 1;
+  flex-direction: column;
+  width: 25rem;
+}
+
+.html-pic {
+  width: 55%;
+}
+
+.skill-col-2 {
+  flex: 2;
+  flex-direction: column;
+  width: 25rem;
+}
+
+.skill-col-3 {
+  flex: 3;
+  flex-direction: column;
+  width: 25rem;
 }
