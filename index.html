@@ -14,23 +14,25 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <!-- Animate On Scroll library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- My Own CSS -->
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
     <title>Keren C. Bruce</title>
   </head>
   <body
     style="
-      background-image: url(./assets/images/planning/pink-color-gradient-with-marbled-effect.jpg);
+      background-image: url(/assets/images/planning/pink-color-gradient-with-marbled-effect.jpg);
       font-family: 'Courier New', Courier, monospace;
     "
   >
     <header class="showcase">
       <!-- Navigation Bar -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand fs-1 fw-bolder" href="#home">
             <img
-              src="./assets/images/planning/LOGO-LOGO.png"
+              src="/assets/images/planning/LOGO-LOGO.png"
               alt="codelogo"
               width="130rem"
               height="120rem"
@@ -111,7 +113,7 @@
       <div class="container-fluid d-flex align-items-center" id="home">
         <figure class="curly-girl figure">
           <img
-            src="./assets/images/planning/sassy_logo-removebg.png"
+            src="/assets/images/planning/sassy_logo-removebg.png"
             class="img-fluid"
             alt="curly-logo"
           />
@@ -149,8 +151,8 @@
     </div>
     <br />
     <!-- About Me content section -->
-    <section id="about" style="background-color: #ffecef;" class="container container-fluid d-flex flex-wrap justify-content-center">
-      <div class="container container-fluid">
+    <section id="about" style="background-color: #ffecef;" class="container container-fluid aos-init aos-animate d-flex flex-wrap justify-content-safe" data-aos="fade-up">
+      <div class="container container-fluid ">
         <div class="section-title">
           <h1 class="about-title text-center fw-bolder fs-1">About Me .</h1>
         </div>
@@ -160,8 +162,9 @@
           <div class="row">
             <div class="column-1 col">
               <img
-                alt="placeholder"
-                src="./assets/images/planning/image-placeholder.png"
+                alt="picofmyself"
+                src="/assets/images/planning/me--.jpg"
+                class="my-img img-fluid"
               />
             </div>
           </div>
@@ -185,8 +188,8 @@
       <hr>
       <br>
       <!-- Personal Details -->
-      <section id="thisisme-section" class="container container-fluid d-flex flex-wrap">
-        <div class="container container-fluid">
+      <section id="thisisme-section" class="thisisme-section container container-fluid d-flex flex-wrap">
+        <div class="container container-fluid aos-init aos-animate" data-aos="fade-up">
           <div class="thisisme-title">
             <h1 class="thisisme fw-bold text-center">This Is Me</h1>
           </div>
@@ -194,10 +197,10 @@
             <div class="row">
               <div class="det-1 col">
                 <ul>
-                  <li><span class="details-title fw-bold fs-5">Full Name:</span>Keren Chelsea Bruce</li>
-                  <li><span class="details-title fw-bold fs-5">Gender:</span>Female</li>
-                  <li><span class="details-title fw-bold fs-5">Age:</span>22</li>
-                  <li><span class="details-title fw-bold fs-5">Date Of Birth:</span>31 December 1999</li>
+                  <li><span class="details-title fw-bold fs-5">Full Name</span>Keren Chelsea Bruce</li>
+                  <li><span class="details-title fw-bold fs-5">Gender</span>Female</li>
+                  <li><span class="details-title fw-bold fs-5">Age</span>22</li>
+                  <li><span class="details-title fw-bold fs-5">Date Of Birth</span>31 December 1999</li>
                 </ul>
               </div>
             </div>
@@ -205,47 +208,111 @@
             <div class="row">
               <div class="det-2 col">
                 <ul>
-                  <li><span class="details-title fw-bold fs-5">Phone Number:</span>+27 64 967 8020</li>
-                  <li><span class="details-title fw-bold fs-5">E-mail:</span>kerenchelseabruce@gmail.com / kerencbruce@gmail.com</li>
-                  <li><span class="details-title fw-bold fs-5">City:</span>Cape Town (Western Cape, South Africa)</li>
-                  <li><span class="details-title fw-bold fs-5">Freelance:</span>Available</li>
+                  <li><span class="details-title fw-bold fs-5">Phone Number</span>+27 64 967 8020</li>
+                  <li><span class="details-title fw-bold fs-5">Email</span>kerenchelseabruce@gmail.com / kerencbruce@gmail.com</li>
+                  <li><span class="details-title fw-bold fs-5">City</span>Cape Town (Western Cape, South Africa)</li>
+                  <li><span class="details-title fw-bold fs-5">Freelance</span>Available</li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <div class="magic-space container container-fluid">
+      <div class="magic-space container container-fluid aos-init aos-animate" data-aos="zoom-in">
         <p class="magic text-center fw-bolder fs-1" style="color: #df468d;">
           Let's create magic together!
         </p>
       </div>  
-      </div>
-      <br>
-      <hr>
-      <br>
-      <!-- Work Experience content section -->
-      <section id="workexperience" class="work-section container container-fluid">
-        <div class="container aos-init aos-animate" data-aos="fade-up">
-          <div class="work-title-section">
-            <h1 class="work-title text-center fw-bold fs-2">Work Experience</h1>
-          </div>
+    </div>
+    </section>
+    <br>
+    <hr>
+    <br>
+    <!-- Work Experience content section -->
+    <section id="workexperience" class="work-section container container-fluid">
+      <div class="container aos-init aos-animate" data-aos="fade-up">
+        <div class="work-title-section">
+          <h1 class="work-title text-center fw-bolder fs-1" style="text-decoration: underline 2px solid #ff6bae;">Work Experience</h1>
+        </div>
+        <div class="container-work container container-fluid d-flex flex-wrap">
           <div class="row">
-            <div class="col-lg-6">
-              <h3 class="summary-title fw-bold text-center">Summary</h3>
+            <div class="column--1 col-lg-3">
+              <h3 class="summary-title fw-bolder text-center" style="text-decoration: underline 2px solid #ff98c7;">Summary</h3>
             </div>
             <div class="summary-item pb-0">
-              ::before
-              <h3>Keren Chelsea Bruce</h3>
-              <p>
-                <em>Creative, ambitious full stack developer with an intense craving to gain experience designing and developing user-centered material from initial concept to finish, to the best of my ability.</em>
+              <h3 class="title-in-work fw-bolder">Keren Chelsea Bruce</h3>
+              <p class="summary-content fw-bold d-flex flex-wrap text-center">
+                <em>🖤 Creative, ambitious full stack developer with an intense craving to gain experience designing and developing user-centered material from initial concept to finish, to the best of my ability. 🖤</em>
               </p>
+              <hr>
+            </div>
+            <div class="summary-item pb-0 container container-fluid">
+              <h3 class="title-in-work fw-bolder">My journey so far:</h3><br>
+              <div class="row">
+                <div class="work-col-1 col col-lg-6">
+                  <h2 class="w-col-title fw-bold">Empire Promotions</h2>
+                  <p class="w-col-content">
+                    <p class="fw-light">
+                      <span class="duration-work fw-bold">26/01/2018 - 15/04/2018</span>
+                      <span class="job"><em>Promoter</em></span>
+                    </p>
+                    <h4 class="fw-bold" style="text-decoration: underline 2px solid #ff98c7;">Responsibilities</h4>
+                    <ul class="list-group">
+                      <li class="list-group-item">Demonstrate & provide information on promoted products / services.</li>
+                      <li class="list-group-item">Create a positive image & lead customers to use it.</li>
+                      <li class="list-group-item">Identify interest & understand customer needs & requirements.</li>
+                      <li class="list-group-item">Use tasting samples in order to receive feedback.</li>
+                    </ul>
+                  </p>
+                </div>
+                <div class="work-col-2 col col-lg-6">
+                  <h2 class="w-col-title fw-bold">Game - Canal Walk</h2>
+                  <p class="w-col-content">
+                    <p class="fw-light">
+                      <span class="duration-work fw-bold">15/11/2019 - 31/12/2019</span>
+                      <span class="job"><em> Gift Wrapper / Cashier</em></span>
+                    </p>
+                    <h4 class="fw-bold" style="text-decoration: underline 2px solid #ff98c7;">Responsibilities</h4>
+                    <ul class="list-group">
+                      <li class="list-group-item"><span class="fw-bold" style="color:#f95ca3;">Wrapping Items</span> - Wrapping fragile items in order to ensure safe transport.</li>
+                      <li class="list-group-item"><span class="fw-bold" style="color:#f95ca3;">Processing Items</span> - Asking customers for the correct amount of money, and taking payment by cash / credit.</li>
+                      <li class="list-group-item">Issue receipts, refunds, change or tickets.</li>
+                      <li class="list-group-item">Redeem stamps, coupons or certificates.</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
+          <hr>
+          <br>
+          <div class="row">
+            <div class="column--2 col-lg-3">
+              <h3 class="summary-title fw-bold text-start" style="text-decoration: underline 2px solid #ff69ad;">For More Info...</h3>
+              <p class="summary-content fw-bold d-flex flex-wrap">
+                Check out my CV:
+              </p>
+              <div class="buttons-cv aos-init aos-animate" data-aos="fade-up-right">
+                <button class="CV--btn btn-1" style="box-shadow:3px 6px #070104;"><a href="/assets/resume/CV - KCB2022.pdf" class="btn-scroll scrollto fw-bold fs-5" title="Download my curriculum vitae in pdf format for your perusal." style="color:#f5c7d5; text-decoration: none;">Download my CV (pdf)</a></button>
+                <br>
+                <button class="CV--btn btn-2" style="box-shadow:3px 6px #070104;"><a href="https://drive.google.com/file/d/1TyRaqPRAjedHHSy_9XqWk6cKGff9CGGz/view?usp=share_link" class="btn-scroll scrollto fw-bold fs-5" title="Read through my CV and see why I would be an asset to your company." style="color:#f5c7d5; text-decoration: none;">Read my CV online</a></button>
+              </div>
+            </div>
+        </div>
+      </div>
+    <hr>
+    <!-- Education section -->
+      <section id="education" class="edu-section container container-fluid">
+        <div class="...">
+          ...
         </div>
       </section>
-      </div>
     </section>
+    <!-- AOS script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- JavaScript -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

@@ -1,0 +1,223 @@
+/*-- Whole Document --*/
+.body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgb(255, 209, 217);
+  margin: 0;
+  padding: 30px;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/*-- Landing Page --*/
+.landing-page {
+  margin-bottom: 30px;
+}
+
+.curly-girl {
+  width: 24rem;
+  height: 24rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.words {
+  color: #86003c;
+}
+
+.home-desc {
+  text-decoration: none;
+}
+
+.job-title {
+  color: #e41f7b;
+  font-style: italic;
+}
+
+.about-button {
+  border-radius: 5px;
+  padding: 12px;
+  background-color: #86003c;
+}
+
+.about-button:hover {
+  background-color: #3b001b;
+  color: #f3a8bf;
+}
+
+/*-- About Me --*/
+#about {
+  background-color: #f1bad4;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 6px solid #e41f7b;
+  border-radius: 8%;
+  box-shadow: 6px 12px #730134;
+  overflow: none;
+}
+
+.about-title {
+  color: #e41f7b;
+  border-top: 2.5px dashed #e41f7b;
+  border-bottom: 2.5px dashed #e41f7b;
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+
+}
+
+.thisisme {
+  color: #e41f7b;
+}
+
+.column-1 {
+  flex: 1;
+  flex-direction: column;
+  width: 30rem;
+}
+
+.my-img{
+  width: 90%;
+}
+
+.column-2 {
+  flex: 2;
+  flex-direction: column;
+  width: 25.5rem;
+  border-left:2.5px solid #3b001b;
+}
+
+.magic-space {
+  background-image: url(/assets/images/planning/banner-img.png);
+  border-radius: 5px;
+}
+
+.magic {
+  margin: 20px;
+  padding: 30px;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  text-align: center;
+  background-color: #ffcacacf;
+  border-radius: 5px;
+}
+
+/*-- Personal Details --*/
+.thisisme{
+  border-top: 2.5px dashed #e41f7b;
+  border-bottom: 2.5px dashed #e41f7b;
+}
+.details {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.det-1 {
+  flex: 1;
+  flex-direction: column;
+  width: 25rem;
+}
+
+.det-2 {
+  flex: 2;
+  flex-direction: column;
+  width: 25rem;
+}
+
+.details-title {
+  color: #cc1366;
+  flex-wrap: wrap;
+  border-right: 3.5px solid #e41f7b;
+  margin-right: 1rem;
+}
+
+/*-- Work Experience --*/
+#workexperience {
+  background-color: #730134;
+  padding: 0;
+  width: 100%;
+}
+.work-section {
+  background-color: #ffdfdf;
+
+}
+
+.work-title {
+  color: #e41f7b;
+}
+
+.work-title-section{
+  font-size:x-large;
+}
+
+/*-- Summary --*/
+.summary-title {
+  color: #fc187f;
+  text-align: center;
+}
+
+.summary-item {
+  text-align: center;
+  color: #e96ba4;
+}
+
+.container-work {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 10px;
+}
+
+.column--1 {
+  flex: 1;
+  flex-direction: column;
+  width: 30rem;
+}
+
+.column--2 {
+  flex: 2;
+  flex-direction: column;
+  width: 45rem;
+  border-left: 2px dotted #c83477;
+}
+
+.summary-content {
+  color: #f878b2;
+  text-decoration: underline;
+}
+
+.title-in-work{
+  text-decoration: underline 2px solid #ff3590;
+}
+
+.w-col-title{
+  text-decoration: underline 2px solid #ff98c7;
+}
+
+/*-- CV button --*/
+.CV--btn {
+  border-radius: 5px;
+  padding: 12px;
+  background-color: #be125f;
+  color: whitesmoke;
+}
+
+.CV--btn:hover {
+  background-color: #3b001b;
+  color: #f3a8bf;
+}
+
+.btn-1{
+  margin-bottom: 5px;
+}
+
+.buttons-cv{
+  padding: 5px;
+}
