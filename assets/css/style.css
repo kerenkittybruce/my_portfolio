@@ -9,6 +9,7 @@
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
+  position: relative;
 }
 
 /*-- Landing Page --*/
@@ -140,6 +141,19 @@
   flex-wrap: wrap;
   border-right: 3.5px solid #e41f7b;
   margin-right: 1rem;
+}
+
+/*-- Testimonial Carousel --*/
+.testimonials-section{
+  color:#55002b;
+}
+
+.section-header::after{
+  content:"";
+  width: 100px;
+  height: 4px;
+  position: absolute;
+  padding-bottom: 0;
 }
 
 /*-- Work Experience --*/
