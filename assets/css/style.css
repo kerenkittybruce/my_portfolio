@@ -205,14 +205,14 @@
 }
 
 /*-- CV button --*/
-.CV--btn {
+.--btn {
   border-radius: 5px;
   padding: 12px;
   background-color: #be125f;
   color: whitesmoke;
 }
 
-.CV--btn:hover {
+.--btn:hover {
   background-color: #3b001b;
   color: #f3a8bf;
 }
@@ -275,4 +275,36 @@
   flex: 3;
   flex-direction: column;
   width: 25rem;
+}
+
+.bs-img{
+  margin: 10px 10px 0 10px;
+}
+
+/*-- Projects section --*/
+.pro-sect{
+  background-color:#3b001b;
+  color:#f3a8bf;
+  padding: 10px;
+  margin: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.pro-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.pro-btn{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
