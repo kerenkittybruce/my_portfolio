@@ -348,41 +348,42 @@
 }
 
 .foot-link {
-  list-style-type: none;
+  list-style-type:none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   display: flex;
+  justify-content: space-between;
 }
 
 .footl1 {
   flex: 1;
   flex-direction: column;
-  width: 25px;
+  width: 10rem;
 }
 
 .footl2 {
   flex: 2;
   flex-direction: column;
-  width: 25px;
+  width: 10rem;
 }
 
 .footl3 {
   flex: 3;
   flex-direction: column;
-  width: 25px;
+  width: 10rem;
 }
 
 .footl4 {
   flex: 4;
   flex-direction: column;
-  width: 25px;
+  width: 10rem;
 }
 
 .footl5 {
   flex: 5;
   flex-direction: column;
-  width: 25px;
+  width: 5.5rem;
 }
 
 .ul {
