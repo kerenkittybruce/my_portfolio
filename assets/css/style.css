@@ -295,6 +295,13 @@
   margin: 10px 10px 0 10px;
 }
 
+.skill-pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 /*-- Projects section --*/
 .pro-sect {
   color: #f3a8bf;
@@ -354,7 +361,6 @@
   padding: 0;
   overflow: hidden;
   display: flex;
-  justify-content: space-between;
 }
 
 .footl1 {
@@ -377,12 +383,6 @@
 
 .footl4 {
   flex: 4;
-  flex-direction: column;
-  width: 10rem;
-}
-
-.footl5 {
-  flex: 5;
   flex-direction: column;
   width: 10rem;
 }
