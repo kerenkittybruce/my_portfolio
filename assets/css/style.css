@@ -5,10 +5,10 @@
   background-size: cover;
   background-color: rgb(255, 209, 217);
   margin: 0;
-  padding: 30px;
+  padding: 20px;
   overflow: hidden;
   position: relative;
-  box-sizing: border-box;
+  box-sizing: content-box;
   position: relative;
 }
 
@@ -144,11 +144,11 @@
 }
 
 /*-- Testimonial Carousel --*/
-.testimonials-section{
-  color:#55002b;
+.testimonials-section {
+  color: #55002b;
 }
 
-.testimonials--btn{
+.testimonials--btn {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -290,14 +290,13 @@
   width: 25rem;
 }
 
-.bs-img{
+.bs-img {
   margin: 10px 10px 0 10px;
 }
 
 /*-- Projects section --*/
-.pro-sect{
-  background-color:#3b001b;
-  color:#f3a8bf;
+.pro-sect {
+  color: #f3a8bf;
   padding: 10px;
   margin: 20px;
   display: block;
@@ -306,7 +305,7 @@
   width: 50%;
 }
 
-.pro-img{
+.pro-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -315,9 +314,94 @@
   margin-bottom: 25px;
 }
 
-.pro-btn{
+.pro-btn {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+/*-- Filler-Image --*/
+.fill-img {
+  background-image: url(/assets/images/planning/background/horiflower.png);
+  background: no-repeat local contain;
+}
+
+.filler {
+  background-color: #f3a8bf;
+}
+
+/*-- Contact Me section --*/
+.con-form {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+  padding: 25px;
+}
+
+/*-- Footer --*/
+.social-links {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.foot-link {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+}
+
+.footl1 {
+  flex: 1;
+  flex-direction: column;
+  width: 25px;
+}
+
+.footl2 {
+  flex: 2;
+  flex-direction: column;
+  width: 25px;
+}
+
+.footl3 {
+  flex: 3;
+  flex-direction: column;
+  width: 25px;
+}
+
+.footl4 {
+  flex: 4;
+  flex-direction: column;
+  width: 25px;
+}
+
+.footl5 {
+  flex: 5;
+  flex-direction: column;
+  width: 25px;
+}
+
+.ul {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+.foot {
+  color:#3b001b;
+  background-color:#f878b2;
 }
