@@ -146,6 +146,7 @@
 /*-- Testimonial Carousel --*/
 .testimonials-section {
   color: #55002b;
+  width: 100%;
 }
 
 .testimonials--btn {
@@ -383,7 +384,7 @@
 .footl5 {
   flex: 5;
   flex-direction: column;
-  width: 5.5rem;
+  width: 10rem;
 }
 
 .ul {
